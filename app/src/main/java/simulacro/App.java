@@ -19,12 +19,12 @@ public class App {
                 int total_segundos = 0;
                 final byte segx_min = 60;
                 total_segundos = minutos * segx_min;
-
+                return total_segundos;
                 
             } catch (Exception e) {
                 return -1;
             }
-            return minutos;
+            
         }
     
 
